@@ -1,0 +1,138 @@
+/*   
+Theme Name: Test for work
+Theme URI: http://test.ninjacode.tv
+Description: Test for Digizent.
+Author: @jimmylagp
+Author URI: http://html5facil.com
+Version: 1.0
+*/
+
+body{
+	background: #DDD;
+	font-size: 12px;
+	font-family: Georgia, serif;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #666;
+}
+
+#wrapper{
+}
+
+#bar{
+	background: #383838;
+	height: 1em;
+}
+
+#content{
+	margin: 0 auto;
+	width: 940px;
+}
+
+#content header h1{
+	font-size: 2.5em;
+	margin: 1em auto;
+	text-align: center;
+	text-shadow: 0 1px #FFF;
+}
+
+#posts{
+	background: #EEE;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius: 25px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	height: 560px;
+}
+
+#posts #visible{
+	height: 520px;
+	overflow:hidden;
+}
+
+.post{
+	margin: 3em auto;
+	width: 790px;
+}
+
+.post img{
+	border: 2px solid #FFF;
+	display: inline-block;
+}
+
+.post .message{
+	display: inline-block;
+	margin-left: 5em;
+	padding-left: 18px;
+	position:relative;
+	vertical-align: top;
+	width: 622px;
+}
+
+.post .message .box{
+	background: #FFF;
+	border: 1px solid #DDD;
+	-webkit-box-shadow: -3px 3px 0 #DDD;
+	-moz-box-shadow: -3px 3px 0 #DDD;
+	-o-box-shadow: -3px 3px 0 #DDD;
+	box-shadow: -3px 3px 0 #DDD;
+	display: inline-block;
+	padding: 10px;
+}
+
+.post .message .arrow,
+.post .message .arrrow-border,
+.post .message .arrrow-shadow{
+	position:absolute;
+	width:0px;
+}
+
+.post .message .arrow{
+	border-left:15px solid transparent;
+	border-right:15px solid #FFF;
+	border-bottom:15px solid transparent;
+	height:0px;
+	left:-11px;
+	top:18px;
+	z-index: 9999;
+}
+
+.post .message .arrrow-border{
+	border-left:17px solid transparent;
+	border-right:17px solid #DDD;
+	border-bottom:17px solid transparent;
+	height:0px;
+	left:-16px;
+	top:17px;
+	z-index: 500;
+}
+
+.post .message .arrrow-shadow{
+	border-left:22px solid transparent;
+	border-right:22px solid #DDD;
+	border-bottom:22px solid transparent;
+	height:0px;
+	left:-25px;
+	top:20px;
+	z-index: 300;
+}
+
+.post .message p{
+	padding: 1em 5em;
+}
+
+.post .message .author{
+	display: block;
+	margin: 0 6em;
+	font-size: 1em;
+	font-style: italic;
+	text-align: right;
+}
